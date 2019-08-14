@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `On Code`,
+    title: `Objector`,
     author: `Montique Stevens`,
     description: `My dev blog chronicling my journey.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -57,8 +57,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `On Code`,
-        short_name: `On Code`,
+        name: `Objector`,
+        short_name: `Objector`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,

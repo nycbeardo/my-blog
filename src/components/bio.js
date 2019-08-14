@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        A blog by <strong>{author}</strong> a web developer and a design stan based in New York City.
+        Personal blog by <strong>{author}</strong> a web developer and design stan based in New York City.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
 
