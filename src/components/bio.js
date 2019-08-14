@@ -54,11 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        A blog by <strong>{author}</strong> a web developer and a design stan based in New York City.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+
+          Feel free to follow me on Twitter
         </a>
       </p>
     </div>
