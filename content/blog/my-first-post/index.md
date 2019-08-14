@@ -1,5 +1,6 @@
 ---
 title: My First Post
+date: 2019-08-14
 ---
 
 This is my first post! Its a work in progress so you may see things that are not perfect. 
