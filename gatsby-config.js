@@ -40,7 +40,7 @@ module.exports = {
   siteMetadata: {
     title: `Objector`,
     author: `Montique Stevens`,
-    description: `My dev blog chronicling my journey`,
+    description: `My personal dev blog chronicling my journey`,
     social: [
       {
         name: `twitter`,
