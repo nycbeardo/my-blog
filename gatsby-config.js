@@ -52,7 +52,7 @@ module.exports = {
       },
       {
         name: `portfolio`,
-        url: `https://mkstevens.tech',
+        url: `https://mkstevens.tech`,
       },
     ],
   },
