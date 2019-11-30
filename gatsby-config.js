@@ -67,14 +67,7 @@ module.exports = {
       },
     },
 
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-page-transitions`,
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 500
-      }
-    }
+   
   ],
   // Customize your site metadata:
   siteMetadata: {

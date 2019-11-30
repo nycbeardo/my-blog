@@ -7,9 +7,9 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-  Personal blog of <Styled.a href="https://mstevens.xyz/">Montique Stevens</Styled.a>,
+  Personal blog of <Styled.a href="https://mkstevens.tech">Montique Stevens</Styled.a>,
     {` `}
-    a Frontend Developer and design enthusiast based in New York City.
+    a Frontend Developer & UI Designer based in New York City.
     <br />
    
   </Fragment>
