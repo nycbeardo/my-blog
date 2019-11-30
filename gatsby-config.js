@@ -1,6 +1,5 @@
 module.exports = {
-  plugins: [
-    {
+  plugins: [{
       resolve: `gatsby-theme-blog`,
       options: {},
     },
@@ -8,7 +7,7 @@ module.exports = {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
-  
+
         // WebApp Manifest Configuration
         appName: null, // Inferred with your package.json
         appDescription: null,
@@ -22,7 +21,7 @@ module.exports = {
         orientation: 'any',
         start_url: '/?homescreen=1',
         version: '1.0',
-  
+
         icons: {
           android: true,
           appleIcon: true,
@@ -34,6 +33,47 @@ module.exports = {
           windows: false
         }
       }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [{
+            resolve: 'gatsby-remark-emoji', // <-- this adds emoji
+            options: {
+              // default emojiConversion --> shortnameToUnicode
+              emojiConversion: 'shortnameToUnicode',
+              // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
+              // e.g. ;) --> 😉
+              ascii: false,
+            }
+          },
+
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        // CommonMark mode (default: true)
+        commonmark: true,
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // Pedantic mode (default: true)
+        pedantic: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
+        // Plugins configs
+        plugins: [],
+      },
+    },
+
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-page-transitions`,
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
     }
   ],
   // Customize your site metadata:
@@ -41,8 +81,7 @@ module.exports = {
     title: `Objector`,
     author: `Montique Stevens`,
     description: `My personal dev blog chronicling my journey`,
-    social: [
-      {
+    social: [{
         name: `twitter`,
         url: `https://twitter.com/nycbeardo`,
       },

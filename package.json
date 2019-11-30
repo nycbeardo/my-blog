@@ -10,7 +10,11 @@
   "dependencies": {
     "gatsby": "^2.13.65",
     "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-layout": "^1.1.13",
+    "gatsby-plugin-page-transitions": "^1.0.8",
+    "gatsby-remark-emoji": "0.0.3",
     "gatsby-theme-blog": "^1.0.2",
+    "gatsby-transformer-remark": "^2.6.30",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
