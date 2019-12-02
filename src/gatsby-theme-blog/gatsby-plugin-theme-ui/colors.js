@@ -9,8 +9,8 @@ import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/col
 
 const darkBlue = `#007acc`
 const lightBlue = `#66E0FF`
-const blueGray = `#282c35`
-const lightOrange = '#F57C00'
+const blueGray = `#2d334a`
+const lightRed = '#ea7362'
 
 
 export default merge(defaultThemeColors, {
@@ -20,7 +20,7 @@ export default merge(defaultThemeColors, {
   modes: {
     dark: {
       background: blueGray,
-     primary: lightOrange,
+     primary: lightRed,
       highlight: lightBlue,
     },
    },
