@@ -9,7 +9,7 @@ export default () => (
   <Fragment>
   Personal blog of <Styled.a href="https://mkstevens.tech">Montique Stevens</Styled.a>,
     {` `}
-    a Frontend Developer & UI Designer based in New York City.
+    a Frontend Developer & UI/UX Designer based in New York City.
     <br />
    
   </Fragment>
