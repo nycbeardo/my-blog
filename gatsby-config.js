@@ -86,6 +86,10 @@ module.exports = {
         name: `portfolio`,
         url: `https://mkstevens.tech`,
       },
+      {
+        name: `dribbble`,
+        url: `https://dribbble.com/nycbeardo`,
+      },
     ],
   },
 }
