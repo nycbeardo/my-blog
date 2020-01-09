@@ -3,7 +3,7 @@ import defaultThemeTypography from "gatsby-theme-blog/src/gatsby-plugin-theme-ui
 
 export default merge(defaultThemeTypography, {
   fonts: {
-    body: " 'Roboto Condensed', sans-serif",
+    body: " 'Roboto', sans-serif",
     heading: " 'Roboto', sans-serif",
     monospace: "Menlo, monospace"
   },
