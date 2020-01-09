@@ -8,12 +8,12 @@ export default merge(defaultThemeTypography, {
     monospace: "Menlo, monospace"
   },
   fontWeights: {
-    body: 400,
+    body: 500,
     heading: 650,
     bold: 700,
   },
   lineHeights: {
-    body: 2.0,
+    body: 2.5,
     heading: 1.275,
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
