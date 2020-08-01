@@ -1,4 +1,6 @@
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace"
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.fontLigatures": true,
 }
