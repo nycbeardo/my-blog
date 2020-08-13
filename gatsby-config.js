@@ -1,7 +1,9 @@
 module.exports = {
   plugins: [{
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: {
+        basePath: `/blog`,
+      },
     },
  
     {
@@ -36,6 +38,7 @@ module.exports = {
         plugins: [],
       },
     },
+   
 
    
   ],
